@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 5.625rem; /*100% = 16px = 1 em. 90px = 90/16em = 5 если родительский тег имеет не статичный шрифт (em, %), то он будет  влиять на дочерний. В данном случае, если тег body будет иметь 2em(200%), то h1 увеличится еще в два раза. Если указать rem, то влияние родительского тега будет исключено*/
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #79dae8;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #79dae8;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #0aa1dd;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  height: 0px;
+  width: 5%;
+  margin: 5em auto;
+}
+
+footer-link {
+  font-family: "Montserrat", sans-serif;
+  color: #0aa1dd;
+}
+
+.top-container {
+  background-color: #e8f9fd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.monitor-img {
+  width: 25%;
+  float: left; /* float располагает картинку слева, а все остальное справа. Обратный эффект создает команда clear*/
+  margin-right: 30px;
+}
+
+.budget-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.my-photo {
+  width: 20%;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background: #79dae8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0aa1dd;
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin: 40px 0 0 0;
+  background-color: #79dae8;
+  padding: 40px;
+  line-height: 3;
+}
+
+.sign {
+  margin: 0;
+}
+
+.footer-link {
+  color: #0aa1dd;
+  text-decoration: none;
+  margin: 2px 20px 5px 20px;
+}

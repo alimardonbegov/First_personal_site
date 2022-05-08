@@ -2,7 +2,9 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-  font-size: 100%;
+  font-size: 100
+   width: device-width;
+  zoom: 1.0;
 }
 
 h1 {
